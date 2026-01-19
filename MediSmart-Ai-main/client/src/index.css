@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-secondary-50 text-secondary-800 antialiased;
+}
+
+.leaflet-container {
+  height: 400px;
+  width: 100%;
+}
